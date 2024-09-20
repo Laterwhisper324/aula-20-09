@@ -1,0 +1,38 @@
+#fundodomodal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color:rgba(105, 105, 105);
+}
+#ConteudoDoModal{
+    background-color: aliceblue;
+    margin: auto;
+    border: 2px solid blue;
+    border-radius: 5px;
+    box-shadow: 10px 10px black;
+    max-height: 60%;
+    max-width: 300px;
+}
+#close{
+    color: dimgray;
+    font-size: 28px;
+    font-weight: bold;
+}
+#close:hover{
+    color: black;
+    cursor: pointer;
+}
+#ConteudoDoModal h2{
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+}
+body{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
